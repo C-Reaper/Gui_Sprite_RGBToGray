@@ -76,7 +76,7 @@ void Crawler_Build(char* path){
 }
 
 void Setup(AlxWindow* w){
-    RGA_Set(Time_Nano());
+    Random_Set(Time_Nano());
 
     ResizeAlxFont(8,8);
 
